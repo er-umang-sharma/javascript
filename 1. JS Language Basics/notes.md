@@ -87,7 +87,7 @@ From now on, we'll use javascript from the external file as this will allow us t
   - Client-Side: JavaScript was traditionally only used in the browser
   - Server-Side: Thanks to Node.js, we can use JavaScript on the server as well.
 
-- JavaScript is what modern web development possible:
+- JavaScript is what made modern web development possible:
 
   - Dynamic effects and interactivity
   - Modern web applications that we interact with.
@@ -222,7 +222,7 @@ The functions that are performed by the browser window are as follows:
 >, <, >=, <=, ==, !=, ===
 ```
 
-__NOTE:__ Two two different equality operators are `==` and `===`. The difference between these is that, when we use `==`, it does the type coercion. Which means that the type is automatically changed by javascript to match and compare the udpated values. When using `===`, they are compared with not only values but also it's type- string equality checking.
+__NOTE:__ Two two different equality operators are `==` and `===`. The difference between these is that, when we use `==`, it does the type coercion. Which means that the type is automatically changed by javascript to match and compare the udpated values. When using `===`, they are compared with not only values but also it's type- complete equality checking.
 
 Example:
 
@@ -359,9 +359,10 @@ switch(true) {
 
 ## Truthy and Falsy values and Equaly Operator
 
-__Falsy values:__ The values which evaluate to false when evaluated in an if-else condition statement.
+__Falsy values:__ The values which evaluate to false when evaluated in an if-else condition statement.  
   Exmaple: undefined, null, 0, '', NaN
-__Truthy values:__ The values that are considered as true when evaluated in an if-else condition statement.
+
+__Truthy values:__ The values that are considered as true when evaluated in an if-else condition statement.  
   Any value which is not falsy.
 
 Example:
@@ -395,7 +396,7 @@ console.log(calculateAge(1994));
 
 ## Function Statements and Expresssions
 
-The above definations of the function is called as function statement. But there is one other way to define a function:
+The above definations of the function is called as function statement. But there is one other way to define a function, called __function expression__:
 
 ```javascript
 var currentYear = 2021;
@@ -408,11 +409,11 @@ console.log(calculateAge(1994));
 
 Under the hood, the function expressions work quite differently, but let's look at that later. Statements and Expressions do not only apply to functions, but they are global concepts in javascript.
 
-### Difference between Statements and Expressions
+### Difference between Expressions and Statements
+
+__Expressions:__ JavaScript Expressions are pieces of code that always produce value, no matter how long they are, as long as there is a value. The same goes for any other code which returns a value or an ouput. It can be called as an expression.
 
 __Statements:__ Statements are pieces of code that do not produce or give an immediate value.
-
-__Expressions:__ JavaScript Expressions are pieces of code that always produce value, no matter how long they are, as long as there is a value. The same goes for any other statements which returns a value or an ouput.
 
 ## Arrays
 
